@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:sawo_sdk/sawo_sdk.dart';
 
+
 void main() {
   runApp(MaterialApp(
     title: 'Sawo Login Example',
@@ -13,7 +14,7 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Sawo login example'),
+        title: const Text('Sawo login example'),
       ),
       body: Center(child: SelectionButton()),
     );
